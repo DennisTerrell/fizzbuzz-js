@@ -4,13 +4,13 @@ for (var i=1; i<= 100; i++){
   var divideByFive = i % 5 === 0;
 
   if (divideByThree && divideByFive){
-    console.log('FizzBuzz');
+    console.log(i + ' ' + 'FizzBuzz');
   }
   else if (divideByThree){
-    console.log('Fizz');
+    console.log(i + ' ' + 'Fizz');
   }
   else if (divideByFive){
-    console.log('Buzz');
+    console.log(i + ' ' + 'Buzz');
   }
   else{
     console.log(i);
