@@ -1,18 +1,15 @@
 for (var i=1; i<= 100; i++){ 
 
-  var divideByThree = i % 3 === 0;
-  var divideByFive = i % 5 === 0;
+  var fizzBuzzNumber = '';
 
-  if (divideByThree && divideByFive){
-    console.log(i + ' ' + 'FizzBuzz');
+  if (i % 3 !== 0 && i % 5 !==0){
+    fizzBuzzNumber += i;
+  }   
+  if (i % 3 === 0){
+    fizzBuzzNumber += 'Fizz';
   }
-  else if (divideByThree){
-    console.log(i + ' ' + 'Fizz');
+  if (i % 5 === 0){
+    fizzBuzzNumber += 'Buzz';
   }
-  else if (divideByFive){
-    console.log(i + ' ' + 'Buzz');
-  }
-  else{
-    console.log(i);
-  }
+    console.log(fizzBuzzNumber);
 }
