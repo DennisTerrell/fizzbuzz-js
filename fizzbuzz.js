@@ -1,4 +1,4 @@
-for (var i=1; i<= 100; i++){ 
+for (var i=1; i<= 100; i++){
 
   var divideByThree = i % 3 === 0;
   var divideByFive = i % 5 === 0;
